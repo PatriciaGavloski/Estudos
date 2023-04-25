@@ -9,26 +9,74 @@
   
     <style>
 
+header{
+    width: 100%;
+    height: 100px;
+    padding: 10px 0 10px 0;
+    background-color: #F2D096 ;
+    text-align: center;
+    float: left;
+}
+
+nav{
+    width: 10%;
+    height: 600px;
+    background-color: #8FB9AA;
+    text-align: center;
+    float: left;
+}
+
+main{
+    width: 80%;
+    height: 600px;
+    background-color: rgba(152, 184, 185, 0.308) ;
+    text-align: center;
+    float: left;
+}
+
+aside{
+    width: 10%;
+    height: 600px;
+    background-color:  #8FB9AA;
+    text-align: center;
+    float: left;
+}
+
+footer{
+    width: 100%;
+    height: 80px;
+    background-color:  #F2D096;
+    text-align: center;
+    float: left;
+}
+
 p { text-align: center }
 h1 { text-align: center }
 
+h1 {text-align: center;}
+h2 {text-align: center;}
+
 #box_inicial  {
+    text-align: center;
     width: 400px;
     height: 200px;
-    background-color: coral;
+    background-color: #304D63;
+    color: rgb(241, 245, 250);
     margin-top: 30px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 120px;
     padding: 50px;
 }
 
 #box_exemplo {
+    text-align: center;
     width: 400px;
     height: 200px;
-    background-color: darkcyan;
+    background-color: #ED8975;
+    color: rgb(241, 245, 250);
     margin-top: 30px;
     margin-bottom: 50px;
-    margin-left: 20px;
+    margin-left: 120px;
     padding: 50px;
 }
 
@@ -38,15 +86,33 @@ h1 { text-align: center }
   
   <body>
 
-    <h1>Hello, World!</h1>
+    <header>
+      Cabeçalho
+  </header>
 
-    <h1>Linguagem de Marcação e Estilos</h1>
-    <p>CSS - Componentes - Box Model</p>
+  <nav>
+      Coluna 1
+  </nav>
+
+  <main>
+
+    Coluna 2
+        <h1>Linguagem de Marcação e Estilos</h1>
+        <h2>CSS - Componentes - Box Model</h2>
     
+        <div id="box_inicial">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum commodi, doloremque quisquam accusamus voluptas facilis? Cupiditate officia est fugiat quis!</div>
+        <div id="box_exemplo">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+    
+    
+  </main>
 
-    <div id="box_inicial">Lorem ipsum dolor sit amet.</div>
-    <div id="box_exemplo">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
+  <aside>
+    Coluna 3
+  </aside>
 
+  <footer>
+    Rodapé
+  </footer>
 
 
 
